@@ -17,6 +17,6 @@ namespace Homework
 
     public interface IDatabase
     {
-        List<string> GetNames();
+        string[] GetNames();
     }
 }
